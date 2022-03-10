@@ -1,0 +1,12 @@
+.card
+{
+    margin: 10%;
+    background-color: rgb(184, 14, 14);
+    height: 400px;
+}
+
+#main-clock
+{
+    font-size: 125px;
+    font-family: "poketch-clock-numeral","arial", sans-serif;
+}

@@ -1,1 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: poketch-clock-numeral;
+    src: url(assets/font/poketch-clock-numeral.ttf);
+}
