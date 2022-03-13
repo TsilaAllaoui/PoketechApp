@@ -7,13 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ClockComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    this.updateTime();
+   }
+
+  public time:string = new Date().toLocaleTimeString().split(" ")[0];
+  public date:string = new Date().toLocaleDateString(); 
 
   ngOnInit(): void {
   }
 
-  public getTime():string {
-    return new Date().toLocaleTimeString().split(" ")[0];
+  public updateTime(){
+
+    setInterval(() => {
+      this.time = new Date().toLocaleTimeString("en-US", {hour12: false}).split(" ")[0];
+      this.date = new Date().toLocaleDateString("fr-FR"); 
+    }, 1000)
   }
 
 }

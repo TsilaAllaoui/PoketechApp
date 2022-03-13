@@ -1,0 +1,84 @@
+<div class="container">
+    <div class="mt-4">
+        <div class="d-flex justify-content-center align-items-center">
+            <img src="../../assets/image/top-poketech.png" alt="" style="border-radius: 10px 10px 0 0;">
+        </div>
+        <div class="d-flex justify-content-center align-items-center" style="height: 342px;">
+            <img src="../../assets/image/left-poketech.png" alt="" style="height: 105%;">
+            <div class="card" style="background-color: rgb(112, 176, 112);
+            ">
+                <table class="text-center">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <button class="btn btn-dark" (click)="updateOutput('7')">7</button>
+                            </td>
+                            <td>
+                                <button class="btn btn-dark" (click)="updateOutput('8')">8</button>
+                            </td>
+                            <td>
+                                <button class="btn btn-dark" (click)="updateOutput('9')">9</button>
+                            </td>
+                            <td colspan="2">
+                                <button class="btn btn-dark" id="c" (click)="resetOutput()"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="btn btn-dark" (click)="updateOutput('4')">4</button>
+                            </td>
+                            <td>
+                                <button class="btn btn-dark" (click)="updateOutput('5')">5</button>
+                            </td>
+                            <td>
+                                <button class="btn btn-dark" (click)="updateOutput('6')">6</button>
+                            </td>
+                            <td>
+                                <button class="btn btn-dark" id="plus" (click)="updateOutput('+')"></button>
+                            </td>
+                            <td>
+                                <button class="btn btn-dark" id="minus" (click)="updateOutput('-')"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="btn btn-dark" (click)="updateOutput('1')">1</button>
+                            </td>
+                            <td>
+                                <button class="btn btn-dark" (click)="updateOutput('2')">2</button>
+                            </td>
+                            <td>
+                                <button class="btn btn-dark" (click)="updateOutput('3')">3</button>
+                            </td>
+                            <td>
+                                <button class="btn btn-dark" id="times" (click)="updateOutput('x')"></button>
+                            </td>
+                            <td>
+                                <button class="btn btn-dark" id="divide" (click)="updateOutput('/')"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <button class="btn btn-dark" id="zero" (click)="updateOutput('0')">0</button>
+                            </td>
+                            <td>
+                                <button class="btn btn-dark" (click)="updateOutput('.')">.</button>
+                            </td>
+                            <td colspan="2">
+                                <button class="btn btn-dark" id="equal" (click)="computeOutput()"></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="card-footer">
+                    <input readonly="readonly" type="text" id="result" class="form-control form-control-lg"
+                        [placeholder]="result">
+                </div>
+            </div>
+            <img src="../../assets/image/right-poketech.png" alt="" style="height: 100%;">
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+            <img src="../../assets/image/bt-poketech.png" alt="" style="border-radius: 0 0 10px 10px;">
+        </div>
+    </div>
+</div>

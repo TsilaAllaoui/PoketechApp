@@ -1,0 +1,31 @@
+#count
+{
+    font-family: "poketch-clock-numeral","arial", sans-serif;
+    font-size: 75px;
+}
+
+.card
+{
+    background-image: url(../../assets/image/bg-counter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    border-radius: 15px;
+}
+
+.card-title
+{
+    font-size: 25px;
+}
+
+.card-body
+{
+    padding: 30%;
+}
+
+button
+{
+    width: 64px; 
+    height: 56px; 
+    background-size: 100%;
+}

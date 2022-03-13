@@ -1,0 +1,100 @@
+.card
+{
+    height: 342px;
+}
+
+button
+{
+    font-family: "poketch-clock-numeral","arial", sans-serif;
+    background-image: url(../../assets/image/number-bg.png);
+    height: 60px;
+    width: 60px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    color: rgb(56, 80, 48);
+    border-radius: 0;
+}
+
+#zero
+{
+    font-family: "poketch-clock-numeral","arial", sans-serif;
+    background-image: url(../../assets/image/two-number-bg.png);
+    height: 60px;
+    width: 127px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+
+#c 
+{
+    background-image: url(../../assets/image/c-bg.png);
+    height: 60px;
+    width: 127px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#equal
+{
+    background-image: url(../../assets/image/equal-bg.png);
+    height: 60px;
+    width: 127px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#plus
+{
+    background-image: url(../../assets/image/plus-bg.png);
+    height: 60px;
+    width: 60px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#minus
+{
+    background-image: url(../../assets/image/minus-bg.png);
+    height: 60px;
+    width: 60px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#times
+{
+    background-image: url(../../assets/image/times-bg.png);
+    height: 60px;
+    width: 60px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#divide
+{
+    background-image: url(../../assets/image/divide-bg.png);
+    height: 60px;
+    width: 60px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+table
+{
+    border-spacing: 5px;
+    border-collapse: unset;
+    background-color: rgb(112, 176, 112);
+}
+
+#result
+{
+    width: 100%;
+    font-family: "poketch-clock-numeral","arial", sans-serif;
+}
+
+.btn:hover, .btn:enabled
+{
+    color: rgb(56, 80, 48);
+}

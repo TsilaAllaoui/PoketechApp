@@ -2,3 +2,19 @@
     font-family: poketch-clock-numeral;
     src: url(assets/font/poketch-clock-numeral.ttf);
 }
+
+body{
+    background-color: rgb(173, 15, 15);
+}
+
+.btn:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control:focus
+{
+    outline: none;
+    box-shadow: none;
+}
