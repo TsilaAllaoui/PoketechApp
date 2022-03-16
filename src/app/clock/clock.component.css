@@ -1,11 +1,32 @@
 #clock
 {
-    font-size: 100px;
+    font-size: 70px;
     font-family: "poketch-clock-numeral","arial", sans-serif;
 }
 
 #date
 {
     font-family: "poketch-clock-numeral","arial", sans-serif;
-    font-size: 50px;
+    font-size: 30px;
+}
+
+#bg
+{
+    height: 84%;
+    width: 75%;
+    position: relative;
+    top: 29px;
+    left: 31px;
+}
+
+#main-bg
+{
+    background-image: url('../../assets/image/demo.png');
+    height: 115%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 50px 50px 15px;
+    background-color: #ad0f0f;
+    border: 0 solid black;
+    width: 106%;
 }

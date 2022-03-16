@@ -6,26 +6,21 @@
 
 .card
 {
-    background-image: url(../../assets/image/bg-counter.png);
+    background-image: url(../../assets/image/demo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 450px;
-    border-radius: 15px;
+    height: 480px;
+    width: 640px;
+    border-radius: 15px 50px 50px 15px;
+    z-index: 1;
 }
 
-.card-title
+#bg
 {
-    font-size: 25px;
-}
-
-.card-body
-{
-    padding: 30%;
-}
-
-button
-{
-    width: 64px; 
-    height: 56px; 
-    background-size: 100%;
+    position: relative;
+    background-image: url(../../assets/image/bg-counter.png);
+    left: 41px;
+    top: 40px;
+    max-width: 75%;
+    height: 152%;
 }

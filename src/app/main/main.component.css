@@ -1,0 +1,92 @@
+img
+{
+    border-radius: 15px;
+}
+
+.text
+{
+    font-size: 17px;
+}
+
+.card
+{
+    height: 50%;
+    border-radius: 15px;
+    animation-duration: 1s;
+    animation-name: zoomOut;
+    animation-fill-mode: forwards;
+}
+
+.main-card
+{
+    height: 40%;
+    border-radius: 15px;
+    animation-duration: 1s;
+    animation-name: zoomOut;
+    animation-fill-mode: forwards;
+}
+
+#infos
+{
+    animation-duration: 0.7s;
+    animation-name: slideRight;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+#infos:hover
+{
+    opacity: 1;
+}
+
+.card:hover
+{
+    animation-duration: 1s;
+    animation-name: zoomIn;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes slideRight 
+{
+    from
+    {
+        margin-left: 100%;
+        scale: 0;
+        opacity: 0;
+    }   
+    75% 
+    {
+        font-size: 50%;
+    }      
+    to 
+    {
+        margin-left: 0;
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes zoomIn
+{
+    from
+    {
+        scale: 1.0;
+    }      
+    to 
+    {
+        scale: 1.1;
+    }
+}
+
+@keyframes zoomOut
+{
+    from
+    {
+        scale: 1.1;
+    }      
+    to 
+    {
+        scale: 1.0;
+    }
+}

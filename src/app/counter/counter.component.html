@@ -1,15 +1,46 @@
 <div class="container">
-    <div class="offset-2 col-6">
+    <div class="d-flex justify-content-center">
         <div class="card mt-5">
-            <div class="card-body d-block">
-                <div class="card-text text-center row mb-5">
-                    <span id="count">{{ count }}</span>
+            <div>
+                <div id="bg"></div>
+                <div class="text-center mb-5">
+                    <span id="count" style="position: relative;
+                    bottom: 292px;
+                    right: 30px;">{{ count }}</span>
                 </div>
-                <div class="row">
-                    <button (click)="incrementCounter()" class="btn btn-dark offset-md-2 col-md-2 col-sm" style="background-image: url(../../assets/image/step-counter.png);"></button>
-                    <button (click)="resetCounter()" class="btn btn-dark offset-md-2 col-md-2 col-sm" style="background-image: url(../../assets/image/cancel.png);"></button>
+                <div class="row" style="position: relative;
+                bottom: 236px;
+                left: 95px;">
+                    <button sty (click)="incrementCounter()" class="btn btn-dark offset-md-1 col-md-2" style="background-image: url(../../assets/image/step-counter.png);
+                    background-size: cover;
+                    scale: 1.0;
+                    height: 100px;
+                    width: 114px;"></button>
+                    <button (click)="resetCounter()" class="btn btn-dark offset-md-1 col-md-2" style="background-image: url(../../assets/image/cancel.png);
+                    background-size: cover;
+                    scale: 1.0;
+                    height: 100px;
+                    width: 114px;"></button>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
+
+
+
+
+
+<!-- <div class="card mt-5">
+    <div class="card-body d-block">
+        <div class="card-text text-center row mb-5">
+            <span id="count">{{ count }}</span>
+        </div>
+        <div class="row">
+            <button (click)="incrementCounter()" class="btn btn-dark offset-md-2 col-md-2 col-sm" style="background-image: url(../../assets/image/step-counter.png);"></button>
+            <button (click)="resetCounter()" class="btn btn-dark offset-md-2 col-md-2 col-sm" style="background-image: url(../../assets/image/cancel.png);"></button>
+        </div>
+    </div>
+</div> -->
