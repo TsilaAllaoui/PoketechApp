@@ -5,6 +5,7 @@
     background-image: url(../../assets/image/bg-counter.png);
     background-size: cover;
     background-repeat: no-repeat;
+    position: absolute;
 }
 
 #head
@@ -12,7 +13,7 @@
     height: 30px;
     width: 30px;
     background-color: blue;
-    position: relative;
     left: 0;
     top: 0;
+    position: relative;
 }
